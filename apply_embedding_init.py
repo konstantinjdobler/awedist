@@ -77,7 +77,7 @@ def main(
     awedist_batch_size: int = 16,
     snippet_len: int = 50,
     snippet_num: int = 25,
-    stopping_condition: str = "num_docs:768_000",
+    stopping_condition: str = "num_docs:760_000",
     set_output_to_zero_if_untied: bool = True,
     seed=42,
     target_layer=-1,
